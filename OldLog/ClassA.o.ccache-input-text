@@ -1,0 +1,209 @@
+=== COMMON ===
+3
+### ext
+mi
+### cc_mtime
+31456
+1575534755
+### cc_name
+clang
+### LANG
+en_US.US-ASCII
+### cwd
+/Users/cheng/Documents/ExampleLog/CcacheExample
+=== DIRECT MODE ===
+### manifest version
+1
+### arg
+-target
+### arg
+arm64-apple-ios13.2
+### arg
+-fmessage-length=0
+### arg
+-fdiagnostics-show-note-include-stack
+### arg
+-fmacro-backtrace-limit=0
+### arg
+-std=gnu11
+### arg
+-fobjc-arc
+### arg
+-fobjc-weak
+### arg
+-Wno-trigraphs
+### arg
+-fpascal-strings
+### arg
+-O0
+### arg
+-fno-common
+### arg
+-Wno-missing-field-initializers
+### arg
+-Wno-missing-prototypes
+### arg
+-Werror=return-type
+### arg
+-Wdocumentation
+### arg
+-Wunreachable-code
+### arg
+-Wno-implicit-atomic-properties
+### arg
+-Werror=deprecated-objc-isa-usage
+### arg
+-Wno-objc-interface-ivars
+### arg
+-Werror=objc-root-class
+### arg
+-Wno-arc-repeated-use-of-weak
+### arg
+-Wimplicit-retain-self
+### arg
+-Wduplicate-method-match
+### arg
+-Wno-missing-braces
+### arg
+-Wparentheses
+### arg
+-Wswitch
+### arg
+-Wunused-function
+### arg
+-Wno-unused-label
+### arg
+-Wno-unused-parameter
+### arg
+-Wunused-variable
+### arg
+-Wunused-value
+### arg
+-Wempty-body
+### arg
+-Wuninitialized
+### arg
+-Wconditional-uninitialized
+### arg
+-Wno-unknown-pragmas
+### arg
+-Wno-shadow
+### arg
+-Wno-four-char-constants
+### arg
+-Wno-conversion
+### arg
+-Wconstant-conversion
+### arg
+-Wint-conversion
+### arg
+-Wbool-conversion
+### arg
+-Wenum-conversion
+### arg
+-Wno-float-conversion
+### arg
+-Wnon-literal-null-conversion
+### arg
+-Wobjc-literal-conversion
+### arg
+-Wshorten-64-to-32
+### arg
+-Wpointer-sign
+### arg
+-Wno-newline-eof
+### arg
+-Wno-selector
+### arg
+-Wno-strict-selector-match
+### arg
+-Wundeclared-selector
+### arg
+-Wdeprecated-implementations
+### arg
+-fstrict-aliasing
+### arg
+-Wprotocol
+### arg
+-Wdeprecated-declarations
+### arg
+-g
+### arg
+-Wno-sign-conversion
+### arg
+-Winfinite-recursion
+### arg
+-Wcomma
+### arg
+-Wblock-capture-autoreleasing
+### arg
+-Wstrict-prototypes
+### arg
+-Wno-semicolon-before-method-body
+### arg
+-Wunguarded-availability
+### arg
+-fembed-bitcode-marker
+### arg
+-index-store-path
+### arg
+/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Index/DataStore
+### arg
+-DDEBUG=1
+### arg
+-DOBJC_OLD_DISPATCH_PROTOTYPES=0
+### arg
+-isysroot
+### arg
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk
+### arg
+-iquote
+### arg
+/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/CcacheExample-generated-files.hmap
+### arg
+-I/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/CcacheExample-own-target-headers.hmap
+### arg
+-I/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/CcacheExample-all-target-headers.hmap
+### arg
+-iquote
+### arg
+/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/CcacheExample-project-headers.hmap
+### arg
+-I/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Products/Debug-iphoneos/include
+### arg
+-I/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/DerivedSources-normal/arm64
+### arg
+-I/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/DerivedSources/arm64
+### arg
+-I/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/DerivedSources
+### arg
+-F/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Products/Debug-iphoneos
+### arg
+-x
+### arg
+objective-c
+### arg
+-MMD
+### arg
+-MT
+### arg
+dependencies
+### arg
+-MF
+### inputfile
+/Users/cheng/Documents/ExampleLog/CcacheExample/CcacheExample/ClassA.m
+### sourcecode
+//
+//  ClassA.m
+//  CcacheExample
+//
+//  Created by wolfcolony on 2020/1/9.
+//  Copyright © 2020 wolfcolony. All rights reserved.
+//
+
+#import "ClassA.h"
+
+@implementation ClassA
+
+@end
+

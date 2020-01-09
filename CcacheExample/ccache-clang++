@@ -1,0 +1,4 @@
+#!/bin/sh
+export PATH=$PATH:/usr/local/bin
+export CCACHE_DEBUG=true
+exec `echo $PWD`/ccache /usr/bin/clang++ "$@"

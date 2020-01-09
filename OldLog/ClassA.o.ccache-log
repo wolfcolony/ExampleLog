@@ -1,0 +1,58 @@
+[2020-01-09T11:03:58.812027 85351] === CCACHE 3.7.6 STARTED =========================================
+[2020-01-09T11:03:58.812027 85351] Config: (default) base_dir = 
+[2020-01-09T11:03:58.812027 85351] Config: (default) cache_dir = /Users/cheng/.ccache
+[2020-01-09T11:03:58.812027 85351] Config: (default) cache_dir_levels = 2
+[2020-01-09T11:03:58.812027 85351] Config: (default) compiler = 
+[2020-01-09T11:03:58.812027 85351] Config: (default) compiler_check = mtime
+[2020-01-09T11:03:58.812027 85351] Config: (default) compression = false
+[2020-01-09T11:03:58.812027 85351] Config: (default) compression_level = 6
+[2020-01-09T11:03:58.812027 85351] Config: (default) cpp_extension = 
+[2020-01-09T11:03:58.812027 85351] Config: (environment) debug = true
+[2020-01-09T11:03:58.812027 85351] Config: (default) depend_mode = false
+[2020-01-09T11:03:58.812027 85351] Config: (default) direct_mode = true
+[2020-01-09T11:03:58.812027 85351] Config: (default) disable = false
+[2020-01-09T11:03:58.812027 85351] Config: (default) extra_files_to_hash = 
+[2020-01-09T11:03:58.812027 85351] Config: (default) hard_link = false
+[2020-01-09T11:03:58.812027 85351] Config: (default) hash_dir = true
+[2020-01-09T11:03:58.812027 85351] Config: (default) ignore_headers_in_manifest = 
+[2020-01-09T11:03:58.812027 85351] Config: (default) keep_comments_cpp = false
+[2020-01-09T11:03:58.812027 85351] Config: (default) limit_multiple = 0.8
+[2020-01-09T11:03:58.812027 85351] Config: (default) log_file = 
+[2020-01-09T11:03:58.812027 85351] Config: (default) max_files = 0
+[2020-01-09T11:03:58.812027 85351] Config: (default) max_size = 5.0G
+[2020-01-09T11:03:58.812027 85351] Config: (default) path = 
+[2020-01-09T11:03:58.812027 85351] Config: (default) pch_external_checksum = false
+[2020-01-09T11:03:58.812027 85351] Config: (default) prefix_command = 
+[2020-01-09T11:03:58.812027 85351] Config: (default) prefix_command_cpp = 
+[2020-01-09T11:03:58.812027 85351] Config: (default) read_only = false
+[2020-01-09T11:03:58.812027 85351] Config: (default) read_only_direct = false
+[2020-01-09T11:03:58.812027 85351] Config: (default) recache = false
+[2020-01-09T11:03:58.812027 85351] Config: (default) run_second_cpp = true
+[2020-01-09T11:03:58.812027 85351] Config: (default) sloppiness = 
+[2020-01-09T11:03:58.812027 85351] Config: (default) stats = true
+[2020-01-09T11:03:58.812027 85351] Config: (default) temporary_dir = 
+[2020-01-09T11:03:58.812027 85351] Config: (default) umask = 
+[2020-01-09T11:03:58.812027 85351] Config: (default) unify = false
+[2020-01-09T11:03:58.812319 85351] Command line: /Users/cheng/Documents/ExampleLog/CcacheExample/ccache /usr/bin/clang -x objective-c -target arm64-apple-ios13.2 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu11 -fobjc-arc -fobjc-weak -Wno-trigraphs -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fembed-bitcode-marker -index-store-path /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Index/DataStore -iquote /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/CcacheExample-generated-files.hmap -I/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/CcacheExample-own-target-headers.hmap -I/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/CcacheExample-all-target-headers.hmap -iquote /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/CcacheExample-project-headers.hmap -I/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Products/Debug-iphoneos/include -I/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/DerivedSources-normal/arm64 -I/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/DerivedSources/arm64 -I/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/DerivedSources -F/Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Products/Debug-iphoneos -MMD -MT dependencies -MF /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.d --serialize-diagnostics /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.dia -c /Users/cheng/Documents/ExampleLog/CcacheExample/CcacheExample/ClassA.m -o /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.o
+[2020-01-09T11:03:58.812353 85351] Hostname: cheng.local
+[2020-01-09T11:03:58.812479 85351] Working directory: /Users/cheng/Documents/ExampleLog/CcacheExample
+[2020-01-09T11:03:58.812660 85351] /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Index/DataStore is not a regular file, not considering as input file
+[2020-01-09T11:03:58.812902 85351] Source file: /Users/cheng/Documents/ExampleLog/CcacheExample/CcacheExample/ClassA.m
+[2020-01-09T11:03:58.812906 85351] Dependency file: /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.d
+[2020-01-09T11:03:58.812909 85351] Diagnostics file: /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.dia
+[2020-01-09T11:03:58.812911 85351] Object file: /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.o
+[2020-01-09T11:03:58.813252 85351] Hashing CWD /Users/cheng/Documents/ExampleLog/CcacheExample
+[2020-01-09T11:03:58.813438 85351] Trying direct lookup
+[2020-01-09T11:03:58.813745 85351] Looking for object file hash in /Users/cheng/.ccache/a/0/6521d3f8f6f090f45992f01a0a99cd-4774.manifest
+[2020-01-09T11:03:58.867804 85351] Got object file hash from manifest
+[2020-01-09T11:03:58.868171 85351] Copying /Users/cheng/.ccache/1/f/6bf4d92363e3190e81317caf3e08c6-1925918.o to /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.o via /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.o.cheng.local.85351.SFgxTZ (uncompressed)
+[2020-01-09T11:03:58.868472 85351] Created from cache: /Users/cheng/.ccache/1/f/6bf4d92363e3190e81317caf3e08c6-1925918.o -> /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.o
+[2020-01-09T11:03:58.868592 85351] Copying /Users/cheng/.ccache/1/f/6bf4d92363e3190e81317caf3e08c6-1925918.d to /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.d via /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.d.cheng.local.85351.FUyHoE (uncompressed)
+[2020-01-09T11:03:58.868805 85351] Created from cache: /Users/cheng/.ccache/1/f/6bf4d92363e3190e81317caf3e08c6-1925918.d -> /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.d
+[2020-01-09T11:03:58.868915 85351] Copying /Users/cheng/.ccache/1/f/6bf4d92363e3190e81317caf3e08c6-1925918.dia to /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.dia via /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.dia.cheng.local.85351.BNMdCI (uncompressed)
+[2020-01-09T11:03:58.869204 85351] Created from cache: /Users/cheng/.ccache/1/f/6bf4d92363e3190e81317caf3e08c6-1925918.dia -> /Users/cheng/Library/Developer/Xcode/DerivedData/CcacheExample-ggfoyqfkxezlnnhhdqsshuntcpac/Build/Intermediates.noindex/CcacheExample.build/Debug-iphoneos/CcacheExample.build/Objects-normal/arm64/ClassA.dia
+[2020-01-09T11:03:58.869317 85351] Succeeded getting cached result
+[2020-01-09T11:03:58.869698 85351] Acquired lock /Users/cheng/.ccache/1/stats.lock
+[2020-01-09T11:03:58.870286 85351] Releasing lock /Users/cheng/.ccache/1/stats.lock
+[2020-01-09T11:03:58.870302 85351] Unlink /Users/cheng/.ccache/1/stats.lock
+[2020-01-09T11:03:58.870376 85351] Result: cache hit (direct)
